@@ -1,0 +1,51 @@
+/* News.css */
+
+/* Card Icon Styling */
+.event-icon {
+    font-size: 30px;
+    color: #007bff; /* Icon color */
+  }
+  
+  /* Copy Icon Styling */
+  .copy-icon {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+    color: #6c757d; /* Color for the icon */
+  }
+  
+  .copy-icon:hover {
+    color: #007bff; /* Change color on hover */
+  }
+  
+  /* Card Title Styling */
+  .card-body h5 {
+    font-weight: bold;
+  }
+  
+  .card-body h6 {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Daily Market Digest Form */
+  form input {
+    max-width: 200px; /* Set the maximum width for inputs */
+  }
+  
+  form button {
+    background-color: #6c757d; /* Adjust the button color to match the image */
+    border: none;
+  }
+  
+  form button:hover {
+    background-color: #5a6268; /* Darker shade on hover */
+  }
+  
+  /* Card general spacing */
+  .card {
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  

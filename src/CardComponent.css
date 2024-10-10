@@ -1,0 +1,49 @@
+.card {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .card-title {
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+  
+  .card-time {
+    font-size: 0.9em;
+    color: #aaa;
+  }
+  
+  .card-body h3 {
+    font-size: 1em;
+    margin-bottom: 5px;
+  }
+  
+  .card-body p {
+    font-size: 0.9em;
+    color: #bbb;
+  }
+  
+  .card-footer {
+    margin-top: 10px;
+  }
+  
+  .card-tag {
+    background-color: #555;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8em;
+  }
+  

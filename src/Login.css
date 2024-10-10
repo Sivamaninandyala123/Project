@@ -1,0 +1,129 @@
+/* Styling for the entire login container */
+.login-container {
+    background-color: #141414;
+    padding: 2rem;
+    max-width: 400px;
+    margin: 100px auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header with the logo and close button */
+  .form-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .logo-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-image {
+    width: 24px;
+    margin-right: 10px;
+  }
+  
+  .logo-text {
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .close-button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  /* Body section of the form */
+  .form-body {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #999;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    background-color: #222;
+    color: #fff;
+    font-size: 0.9rem;
+  }
+  
+  .input-group input::placeholder {
+    color: #666;
+  }
+  
+  /* Forgot password text */
+  .forgot-password {
+    color: #666;
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+  }
+  
+  .reset-link {
+    color: #4285f4;
+    cursor: pointer;
+  }
+  
+  .reset-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Login button */
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .login-button:hover {
+    background-color: #555;
+  }
+  
+  /* Or section */
+  .or-text {
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+    color: #999;
+  }
+  
+  .signup-text {
+    font-size: 0.9rem;
+  }
+  
+  .signup-text a {
+    color: #4285f4;
+  }
+  
+  .signup-text a:hover {
+    text-decoration: underline;
+  }
+  
